@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Bootstarp template</title>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="bootstrap/css/bootstrap.css" rel="stylesheet" media="screen">
+<link href="flat.css" rel="stylesheet" media="screen">
+
+<script src="jquery.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+<div style="padding:20px">
+
+<button class="btn btn-primary" type="button">Default button</button>
+<button class="btn btn-info" type="button">Default button</button>
+<button class="btn btn-success" type="button">Default button</button>
+<button class="btn btn-warning" type="button">Default button</button>
+<button class="btn btn-danger" type="button">Default button</button>
+<button class="btn btn-inverse" type="button">Default button</button>
+<button class="btn btn-link" type="button">Default button</button>
+
+<hr>
+
+<p>
+  <button class="btn btn-large btn-primary" type="button">Large button</button>
+  <button class="btn btn-large" type="button">Large button</button>
+</p>
+<p>
+  <button class="btn btn-primary" type="button">Default button</button>
+  <button class="btn" type="button">Default button</button>
+</p>
+<p>
+  <button class="btn btn-small btn-primary" type="button">Small button</button>
+  <button class="btn btn-small" type="button">Small button</button>
+</p>
+<p>
+  <button class="btn btn-mini btn-primary" type="button">Mini button</button>
+  <button class="btn btn-mini" type="button">Mini button</button>
+</p>
+
+<hr>
+
+<button class="btn btn-large btn-block btn-primary" type="button">Block level button</button>
+<button class="btn btn-large btn-block" type="button">Block level button</button>
+
+<hr>
+
+<a href="#" class="btn btn-large btn-primary disabled">Primary link</a>
+<a href="#" class="btn btn-large disabled">Link</a>
+
+<hr>
+
+<a class="btn" href="">Link</a>
+<button class="btn" type="submit">Button</button>
+<input class="btn" type="button" value="Input">
+<input class="btn" type="submit" value="Submit">
+
+<hr>
+
+<div class="btn-toolbar">
+  <div class="btn-group">
+    <a class="btn" href="#"><i class="icon-align-left"></i></a>
+    <a class="btn" href="#"><i class="icon-align-center"></i></a>
+    <a class="btn" href="#"><i class="icon-align-right"></i></a>
+    <a class="btn" href="#"><i class="icon-align-justify"></i></a>
+  </div>
+</div>
+
+<hr>
+
+<div class="btn-group">
+  <a class="btn btn-primary" href="#"><i class="icon-user icon-white"></i> User</a>
+  <a class="btn btn-primary dropdown-toggle" data-toggle="dropdown" href="#"><span class="caret"></span></a>
+  <ul class="dropdown-menu">
+    <li><a href="#"><i class="icon-pencil"></i> Edit</a></li>
+    <li><a href="#"><i class="icon-trash"></i> Delete</a></li>
+    <li><a href="#"><i class="icon-ban-circle"></i> Ban</a></li>
+    <li class="divider"></li>
+    <li><a href="#"><i class="i"></i> Make admin</a></li>
+  </ul>
+</div>
+
+<hr>
+
+<a class="btn btn-large" href="#"><i class="icon-star"></i> Star</a>
+<a class="btn btn-small" href="#"><i class="icon-star"></i> Star</a>
+<a class="btn btn-mini" href="#"><i class="icon-star"></i> Star</a>
+
+<hr>
+
+<form>
+  <fieldset>
+    <legend>Legend</legend>
+    <label>Label name</label>
+    <input type="text" placeholder="Type something…">
+    <span class="help-block">Example block-level help text here.</span>
+    <label class="checkbox">
+      <input type="checkbox"> Check me out
+    </label>
+    <button type="submit" class="btn">Submit</button>
+  </fieldset>
+</form>
+
+
+<hr>
+
+<form class="form-search">
+  <input type="text" class="input-medium search-query">
+  <button type="submit" class="btn">Search</button>
+</form>
+
+<hr>
+
+<form class="form-horizontal">
+  <div class="control-group">
+    <label class="control-label" for="inputEmail">Email</label>
+    <div class="controls">
+      <input type="text" id="inputEmail" placeholder="Email">
+    </div>
+  </div>
+  <div class="control-group">
+    <label class="control-label" for="inputPassword">Password</label>
+    <div class="controls">
+      <input type="password" id="inputPassword" placeholder="Password">
+    </div>
+  </div>
+  <div class="control-group">
+    <div class="controls">
+      <label class="checkbox">
+        <input type="checkbox"> Remember me
+      </label>
+      <button type="submit" class="btn">Sign in</button>
+    </div>
+  </div>
+</form>
+
+<hr>
+
+<textarea rows="3"></textarea>
+
+<hr>
+
+<div class="input-prepend">
+  <span class="add-on">@</span>
+  <input class="span2" id="prependedInput" type="text" placeholder="Username">
+</div>
+<div class="input-append">
+  <input class="span2" id="appendedInput" type="text">
+  <span class="add-on">.00</span>
+</div>
+
+
+<hr>
+
+<div class="input-append">
+  <input class="span2" id="appendedInputButton" type="text">
+  <button class="btn" type="button">Go!</button>
+</div>
+
+<hr>
+
+<div class="input-append">
+  <input class="span2" id="appendedInputButtons" type="text">
+  <button class="btn" type="button">Search</button>
+  <button class="btn" type="button">Options</button>
+</div>
+
+<hr>
+
+<div class="input-append">
+  <input class="span2" id="appendedDropdownButton" type="text">
+  <div class="btn-group">
+    <button class="btn dropdown-toggle" data-toggle="dropdown">
+      Action
+      <span class="caret"></span>
+    </button>
+    <ul class="dropdown-menu">
+      ...
+    </ul>
+  </div>
+</div>
+
+<hr>
+
+<form class="form-search">
+  <div class="input-append">
+    <input type="text" class="span2 search-query">
+    <button type="submit" class="btn">Search</button>
+  </div>
+  <div class="input-prepend">
+    <button type="submit" class="btn">Search</button>
+    <input type="text" class="span2 search-query">
+  </div>
+</form>
+
+<hr>
+
+<input class="span1" type="text" placeholder=".span1">
+<input class="span2" type="text" placeholder=".span2">
+<input class="span3" type="text" placeholder=".span3">
+<select class="span1">
+  ...
+</select>
+<select class="span2">
+  ...
+</select>
+<select class="span3">
+  ...
+</select>
+
+<hr>
+
+<div class="form-actions">
+  <button type="submit" class="btn btn-primary">Save changes</button>
+  <button type="button" class="btn">Cancel</button>
+</div>
+
+<hr>
+
+<div class="control-group warning">
+  <label class="control-label" for="inputWarning">Input with warning</label>
+  <div class="controls">
+    <input type="text" id="inputWarning">
+    <span class="help-inline">Something may have gone wrong</span>
+  </div>
+</div>
+ 
+<div class="control-group error">
+  <label class="control-label" for="inputError">Input with error</label>
+  <div class="controls">
+    <input type="text" id="inputError">
+    <span class="help-inline">Please correct the error</span>
+  </div>
+</div>
+ 
+<div class="control-group info">
+  <label class="control-label" for="inputInfo">Input with info</label>
+  <div class="controls">
+    <input type="text" id="inputInfo">
+    <span class="help-inline">Username is already taken</span>
+  </div>
+</div>
+ 
+<div class="control-group success">
+  <label class="control-label" for="inputSuccess">Input with success</label>
+  <div class="controls">
+    <input type="text" id="inputSuccess">
+    <span class="help-inline">Woohoo!</span>
+  </div>
+</div>
+
+<hr>
+
+<!-- Button to trigger modal -->
+<a href="#myModal" role="button" class="btn" data-toggle="modal">Launch demo modal</a>
+ 
+<!-- Modal -->
+<div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+    <h3 id="myModalLabel">Modal header</h3>
+  </div>
+  <div class="modal-body">
+    <p>One fine body…</p>
+  </div>
+  <div class="modal-footer">
+    <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+    <button class="btn btn-primary">Save changes</button>
+  </div>
+</div>
+
+<hr>
+
+<div class="input-append">
+  <input class="span2" id="appendedDropdownButton" type="text">
+  <div class="btn-group">
+    <button class="btn dropdown-toggle" data-toggle="dropdown">
+      Action
+      <span class="caret"></span>
+    </button>
+    <ul class="dropdown-menu">
+      <li><a tabindex="-1" href="#">Action</a></li>
+  <li><a tabindex="-1" href="#">Another action</a></li>
+  <li><a tabindex="-1" href="#">Something else here</a></li>
+  <li class="divider"></li>
+  <li class="dropdown-submenu">
+    <a tabindex="-1" href="#">More options</a>
+    <ul class="dropdown-menu">
+      <li><a tabindex="-1" href="#">Second level link</a></li>
+      <li><a tabindex="-1" href="#">Second level link</a></li>
+      <li><a tabindex="-1" href="#">Second level link</a></li>
+      <li><a tabindex="-1" href="#">Second level link</a></li>
+      <li><a tabindex="-1" href="#">Second level link</a></li>
+    </ul>
+  </li>
+    </ul>
+  </div>
+</div>
+
+<hr>
+
+<div class="btn-group">
+  <button class="btn">Left</button>
+  <button class="btn">Middle</button>
+  <button class="btn">Right</button>
+</div>
+
+<hr>
+
+<div class="tabbable"> <!-- Only required for left/right tabs -->
+  <ul class="nav nav-tabs">
+    <li class="active"><a href="#tab1" data-toggle="tab">Section 1</a></li>
+    <li><a href="#tab2" data-toggle="tab">Section 2</a></li>
+  </ul>
+  <div class="tab-content">
+    <div class="tab-pane active" id="tab1">
+      <p>I'm in Section 1.</p>
+    </div>
+    <div class="tab-pane" id="tab2">
+      <p>Howdy, I'm in Section 2.</p>
+    </div>
+  </div>
+</div>
+
+<hr>
+
+<div class="navbar">
+  <div class="navbar-inner">
+    <a class="brand" href="#">Title</a>
+    <ul class="nav">
+      <li class="active"><a href="#">Home</a></li>
+      <li><a href="#">Link</a></li>
+      <li><a href="#">Link</a></li>
+    </ul>
+  </div>
+</div>
+
+<hr>
+
+<div class="btn-group">
+                <button class="btn dropdown-toggle" data-toggle="dropdown">Action <span class="caret"></span></button>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#">Separated link</a></li>
+                </ul>
+              </div><!-- /btn-group -->
+              <div class="btn-group">
+                <button class="btn btn-primary dropdown-toggle" data-toggle="dropdown">Action <span class="caret"></span></button>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#">Separated link</a></li>
+                </ul>
+              </div><!-- /btn-group -->
+              <div class="btn-group">
+                <button class="btn btn-danger dropdown-toggle" data-toggle="dropdown">Danger <span class="caret"></span></button>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#">Separated link</a></li>
+                </ul>
+              </div><!-- /btn-group -->
+              <div class="btn-group">
+                <button class="btn btn-warning dropdown-toggle" data-toggle="dropdown">Warning <span class="caret"></span></button>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#">Separated link</a></li>
+                </ul>
+              </div><!-- /btn-group -->
+              <div class="btn-group">
+                <button class="btn btn-success dropdown-toggle" data-toggle="dropdown">Success <span class="caret"></span></button>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#">Separated link</a></li>
+                </ul>
+              </div><!-- /btn-group -->
+              <div class="btn-group">
+                <button class="btn btn-info dropdown-toggle" data-toggle="dropdown">Info <span class="caret"></span></button>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#">Separated link</a></li>
+                </ul>
+              </div><!-- /btn-group -->
+              <div class="btn-group">
+                <button class="btn btn-inverse dropdown-toggle" data-toggle="dropdown">Inverse <span class="caret"></span></button>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li class="divider"></li>
+                  <li><a href="#">Separated link</a></li>
+                </ul>
+              </div><!-- /btn-group -->
+
+<hr>
+
+<ul class="nav nav-pills">
+  <li class="active">
+    <a href="#">Home</a>
+  </li>
+  <li><a href="#">Flat shit</a></li>
+  <li><a href="#">Fuck this flat :P</a></li>
+</ul>
+
+<hr>
+
+<ul class="nav nav-tabs nav-stacked">
+  <li class="active">
+    <a href="#">Home</a>
+  </li>
+  <li><a href="#">Flat shit</a></li>
+  <li><a href="#">Fuck this flat :P</a></li>
+</ul>
+
+<hr>
+
+<ul class="nav nav-pills nav-stacked">
+  <li class="active">
+    <a href="#">Home</a>
+  </li>
+  <li><a href="#">Flat shit</a></li>
+  <li><a href="#">Fuck this flat :P</a></li>
+</ul>
+
+<hr>
+
+<div class="well" style="max-width: 340px; padding: 8px 0;">
+              <ul class="nav nav-list">
+                <li class="nav-header">List header</li>
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#">Library</a></li>
+                <li><a href="#">Applications</a></li>
+                <li class="nav-header">Another list header</li>
+                <li><a href="#">Profile</a></li>
+                <li><a href="#">Settings</a></li>
+                <li class="divider"></li>
+                <li><a href="#">Help</a></li>
+              </ul>
+            </div>
+
+
+<hr>
+
+<div class="navbar navbar-inverse" style="position: static;">
+              <div class="navbar-inner">
+                <div class="container">
+                  <a class="btn btn-navbar" data-toggle="collapse" data-target=".navbar-inverse-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </a>
+                  <a class="brand" href="#">Title</a>
+                  <div class="nav-collapse collapse navbar-inverse-collapse">
+                    <ul class="nav">
+                      <li class="active"><a href="#">Home</a></li>
+                      <li><a href="#">Link</a></li>
+                      <li><a href="#">Link</a></li>
+                      <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                          <li><a href="#">Action</a></li>
+                          <li><a href="#">Another action</a></li>
+                          <li><a href="#">Something else here</a></li>
+                          <li class="divider"></li>
+                          <li class="nav-header">Nav header</li>
+                          <li><a href="#">Separated link</a></li>
+                          <li><a href="#">One more separated link</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                    <form class="navbar-search pull-left" action="">
+                      <input type="text" class="search-query span2" placeholder="Search">
+                    </form>
+                    <ul class="nav pull-right">
+                      <li><a href="#">Link</a></li>
+                      <li class="divider-vertical"></li>
+                      <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                          <li><a href="#">Action</a></li>
+                          <li><a href="#">Another action</a></li>
+                          <li><a href="#">Something else here</a></li>
+                          <li class="divider"></li>
+                          <li><a href="#">Separated link</a></li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </div><!-- /.nav-collapse -->
+                </div>
+              </div><!-- /navbar-inner -->
+            </div><!-- /navbar -->
+
+<hr>
+
+<ul class="breadcrumb">
+  <li><a href="#">Home</a> <span class="divider">/</span></li>
+  <li><a href="#">Library</a> <span class="divider">/</span></li>
+  <li class="active">Data</li>
+</ul>
+
+<hr>
+
+<div class="pagination">
+  <ul>
+    <li><a href="#">Prev</a></li>
+    <li><a href="#">1</a></li>
+    <li><a href="#">2</a></li>
+    <li><a href="#">3</a></li>
+    <li><a href="#">4</a></li>
+    <li><a href="#">5</a></li>
+    <li><a href="#">Next</a></li>
+  </ul>
+</div>
+
+<hr>
+
+<div class="alert">
+  <button type="button" class="close" data-dismiss="alert">&times;</button>
+  <strong>Warning!</strong> Best check yo self, you're not looking too good.
+</div>
+
+<hr>
+
+<div class="progress">
+  <div class="bar" style="width: 60%;"></div>
+</div>
+
+need to fix progress :)
+
+</div>
+</body>
+</html>
