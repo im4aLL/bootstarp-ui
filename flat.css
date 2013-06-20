@@ -1,4 +1,4 @@
-/* #layout
+/* #LAYOUT
 =========================================*/
 .btn { padding: 5px 20px; }
 .btn.btn-large { padding: 12px 20px }
@@ -504,6 +504,12 @@ a.thumbnail:focus {
 }
 
 .alert {
+  -webkit-border-radius: 2px;
+     -moz-border-radius: 2px;
+          border-radius: 2px;
+}
+
+.progress {
   -webkit-border-radius: 2px;
      -moz-border-radius: 2px;
           border-radius: 2px;
