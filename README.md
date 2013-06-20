@@ -1,4 +1,4 @@
-bootstarp-ui
+flat.css for bootstrap
 ============
 
 flat ui for bootstarp
